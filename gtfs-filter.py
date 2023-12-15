@@ -124,7 +124,7 @@ class GTFS_Filter:
 
         :rtype: Set[str]
         """
-        self.filter_for('routes.txt',0, set())
+        self.filter_for('routes.txt', 0, set())
         return self.get_column('routes.txt', self.ROUTE_SHORT_NAME)
 
 
